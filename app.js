@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.get('/', (req, res) => {
-  res.send("Congrats- you built your first S2I App!");
+  res.send("Hi -from Appsody!");
 });
  
 module.exports.app = app;
